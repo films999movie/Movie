@@ -2,7 +2,7 @@ function loadJSAtOnload() {
 var scripts = [
 
 
-"/Horror/Curse-Of-The-Nun.js",
+"Horror/Curse-Of-The-Nun.js",
 
 
 ];

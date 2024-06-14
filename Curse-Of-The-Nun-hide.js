@@ -16,7 +16,7 @@ for (var i = 0; i < scripts.length; i++) {
 }
 };
 if (window.addEventListener)
-    addEventListener('load', loadJSAtOnload, false);
+    addEventListener('load', loadJSAtOnload, true);
 else if (window.attachEvent)
     window.attachEvent('onload', loadJSAtOnload);
 else window.onload = loadJSAtOnload;
